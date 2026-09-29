@@ -1,0 +1,15 @@
+characteristic,value
+N (analytic pool),"31,958"
+"Age, years, mean (SD)",48.1 (18.4)
+"Female, %",51.3
+"Hypertensive (BPQ020), %",34.4
+"Diabetic (diagnosed), %",12.4
+"Diabetes, borderline, %",2.3
+"BMI, kg/m^2, mean (SD)",29.1 (7.0)
+"Fasting glucose, mg/dL, mean (SD)",102.5 (39.2)
+"CKD-compatible abnormality (outcome), %",16.7
+"eGFR, mL/min/1.73m^2, mean (SD)",96.1 (22.9)
+"eGFR, mL/min/1.73m^2, median",98.7
+"ACR, mg/g, mean (SD)",44.9 (349.1)
+"ACR, mg/g, median",7.2
+n aligned for eGFR/ACR,"31,958 (should match processed pool N)"

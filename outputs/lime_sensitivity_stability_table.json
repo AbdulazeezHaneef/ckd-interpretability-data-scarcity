@@ -1,0 +1,86 @@
+[
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 100,
+    "jaccard_top3_mean": 0.7645454545454545,
+    "jaccard_top5_mean": 0.8336026936026937,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.9210606060606065,
+    "kendall_tau_mean": 0.8314959114959117,
+    "status": "OK",
+    "rung_N": 5000,
+    "subsample_size": 200
+  },
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 100,
+    "jaccard_top3_mean": 0.7417979797979798,
+    "jaccard_top5_mean": 0.7814045214045214,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.8601948051948053,
+    "kendall_tau_mean": 0.7444348244348246,
+    "status": "OK",
+    "rung_N": 2500,
+    "subsample_size": 200
+  },
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 98,
+    "jaccard_top3_mean": 0.6475068377866612,
+    "jaccard_top5_mean": 0.7163195174977208,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.7140227224910585,
+    "kendall_tau_mean": 0.590013324917596,
+    "status": "OK",
+    "rung_N": 1000,
+    "subsample_size": 200
+  },
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 92,
+    "jaccard_top3_mean": 0.5308886765408505,
+    "jaccard_top5_mean": 0.6610697790822014,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.5354497986485565,
+    "kendall_tau_mean": 0.4361022000773554,
+    "status": "OK",
+    "rung_N": 500,
+    "subsample_size": 500
+  },
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 71,
+    "jaccard_top3_mean": 0.4515090543259557,
+    "jaccard_top5_mean": 0.6262335920283606,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.38404713998275375,
+    "kendall_tau_mean": 0.2976525821596244,
+    "status": "OK",
+    "rung_N": 250,
+    "subsample_size": 250
+  },
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 24,
+    "jaccard_top3_mean": 0.40108695652173915,
+    "jaccard_top5_mean": 0.5948930296756383,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.2506469979296067,
+    "kendall_tau_mean": 0.19013112491373363,
+    "status": "OK",
+    "rung_N": 100,
+    "subsample_size": 100
+  },
+  {
+    "method": "lime_sensitivity",
+    "n_valid_draws": 0,
+    "jaccard_top3_mean": null,
+    "jaccard_top5_mean": null,
+    "jaccard_top7_mean": null,
+    "spearman_mean": null,
+    "kendall_tau_mean": null,
+    "status": "INSUFFICIENT_VALID_DRAWS",
+    "rung_N": 50,
+    "subsample_size": 50
+  }
+]

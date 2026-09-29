@@ -1,0 +1,58 @@
+[
+  {
+    "characteristic": "N (analytic pool)",
+    "value": "31,958"
+  },
+  {
+    "characteristic": "Age, years, mean (SD)",
+    "value": "48.1 (18.4)"
+  },
+  {
+    "characteristic": "Female, %",
+    "value": "51.3"
+  },
+  {
+    "characteristic": "Hypertensive (BPQ020), %",
+    "value": "34.4"
+  },
+  {
+    "characteristic": "Diabetic (diagnosed), %",
+    "value": "12.4"
+  },
+  {
+    "characteristic": "Diabetes, borderline, %",
+    "value": "2.3"
+  },
+  {
+    "characteristic": "BMI, kg/m^2, mean (SD)",
+    "value": "29.1 (7.0)"
+  },
+  {
+    "characteristic": "Fasting glucose, mg/dL, mean (SD)",
+    "value": "102.5 (39.2)"
+  },
+  {
+    "characteristic": "CKD-compatible abnormality (outcome), %",
+    "value": "16.7"
+  },
+  {
+    "characteristic": "eGFR, mL/min/1.73m^2, mean (SD)",
+    "value": "96.1 (22.9)"
+  },
+  {
+    "characteristic": "eGFR, mL/min/1.73m^2, median",
+    "value": "98.7"
+  },
+  {
+    "characteristic": "ACR, mg/g, mean (SD)",
+    "value": "44.9 (349.1)"
+  },
+  {
+    "characteristic": "ACR, mg/g, median",
+    "value": "7.2"
+  },
+  {
+    "characteristic": "n aligned for eGFR/ACR",
+    "value": "31,958 (should match processed pool N)"
+  }
+]

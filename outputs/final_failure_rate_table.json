@@ -1,0 +1,72 @@
+[
+  {
+    "rung_N": 5000,
+    "n_total": 100,
+    "n_success": 100,
+    "n_failed": 0,
+    "total_failure_rate": 0.0,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.0
+  },
+  {
+    "rung_N": 2500,
+    "n_total": 100,
+    "n_success": 100,
+    "n_failed": 0,
+    "total_failure_rate": 0.0,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.0
+  },
+  {
+    "rung_N": 1000,
+    "n_total": 100,
+    "n_success": 98,
+    "n_failed": 2,
+    "total_failure_rate": 0.02,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.02
+  },
+  {
+    "rung_N": 500,
+    "n_total": 100,
+    "n_success": 92,
+    "n_failed": 8,
+    "total_failure_rate": 0.08,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.08
+  },
+  {
+    "rung_N": 250,
+    "n_total": 100,
+    "n_success": 71,
+    "n_failed": 29,
+    "total_failure_rate": 0.29,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.29
+  },
+  {
+    "rung_N": 100,
+    "n_total": 100,
+    "n_success": 24,
+    "n_failed": 76,
+    "total_failure_rate": 0.76,
+    "rule_1_rate": 0.2,
+    "rule_2_rate": 0.06,
+    "rule_3_rate": 0.5
+  },
+  {
+    "rung_N": 50,
+    "n_total": 100,
+    "n_success": 0,
+    "n_failed": 100,
+    "total_failure_rate": 1.0,
+    "rule_1_rate": 0.95,
+    "rule_2_rate": 0.03,
+    "rule_3_rate": 0.02
+  }
+]

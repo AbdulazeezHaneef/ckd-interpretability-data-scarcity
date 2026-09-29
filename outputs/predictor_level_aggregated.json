@@ -1,0 +1,254 @@
+[
+  {
+    "rung_N": 5000,
+    "feature": "RIDAGEYR",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 5000,
+    "feature": "BMXBMI",
+    "mean_top5_appearance_rate_across_methods": 0.21,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 5000,
+    "feature": "LBXSGL",
+    "mean_top5_appearance_rate_across_methods": 0.955,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 5000,
+    "feature": "RIAGENDR",
+    "mean_top5_appearance_rate_across_methods": 0.655,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 5000,
+    "feature": "BPQ020",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 5000,
+    "feature": "diabetes_borderline",
+    "mean_top5_appearance_rate_across_methods": 0.18,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 5000,
+    "feature": "diabetes_yes",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "RIDAGEYR",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "BMXBMI",
+    "mean_top5_appearance_rate_across_methods": 0.265,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "LBXSGL",
+    "mean_top5_appearance_rate_across_methods": 0.9125,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "RIAGENDR",
+    "mean_top5_appearance_rate_across_methods": 0.54,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "BPQ020",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "diabetes_borderline",
+    "mean_top5_appearance_rate_across_methods": 0.28250000000000003,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 2500,
+    "feature": "diabetes_yes",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "RIDAGEYR",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "BMXBMI",
+    "mean_top5_appearance_rate_across_methods": 0.3086734693877551,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "LBXSGL",
+    "mean_top5_appearance_rate_across_methods": 0.7831632653061225,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "RIAGENDR",
+    "mean_top5_appearance_rate_across_methods": 0.5841836734693877,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "BPQ020",
+    "mean_top5_appearance_rate_across_methods": 0.9795918367346939,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "diabetes_borderline",
+    "mean_top5_appearance_rate_across_methods": 0.38265306122448983,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 1000,
+    "feature": "diabetes_yes",
+    "mean_top5_appearance_rate_across_methods": 0.961734693877551,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "RIDAGEYR",
+    "mean_top5_appearance_rate_across_methods": 1.0,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "BMXBMI",
+    "mean_top5_appearance_rate_across_methods": 0.47826086956521735,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "LBXSGL",
+    "mean_top5_appearance_rate_across_methods": 0.6929347826086956,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "RIAGENDR",
+    "mean_top5_appearance_rate_across_methods": 0.6440217391304348,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "BPQ020",
+    "mean_top5_appearance_rate_across_methods": 0.9456521739130435,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "diabetes_borderline",
+    "mean_top5_appearance_rate_across_methods": 0.40760869565217395,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 500,
+    "feature": "diabetes_yes",
+    "mean_top5_appearance_rate_across_methods": 0.8315217391304347,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "RIDAGEYR",
+    "mean_top5_appearance_rate_across_methods": 0.9929577464788732,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "BMXBMI",
+    "mean_top5_appearance_rate_across_methods": 0.5845070422535211,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "LBXSGL",
+    "mean_top5_appearance_rate_across_methods": 0.630281690140845,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "RIAGENDR",
+    "mean_top5_appearance_rate_across_methods": 0.6725352112676056,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "BPQ020",
+    "mean_top5_appearance_rate_across_methods": 0.8943661971830985,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "diabetes_borderline",
+    "mean_top5_appearance_rate_across_methods": 0.4119718309859155,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 250,
+    "feature": "diabetes_yes",
+    "mean_top5_appearance_rate_across_methods": 0.8133802816901408,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "RIDAGEYR",
+    "mean_top5_appearance_rate_across_methods": 0.96875,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "BMXBMI",
+    "mean_top5_appearance_rate_across_methods": 0.78125,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "LBXSGL",
+    "mean_top5_appearance_rate_across_methods": 0.65625,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "RIAGENDR",
+    "mean_top5_appearance_rate_across_methods": 0.5729166666666666,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "BPQ020",
+    "mean_top5_appearance_rate_across_methods": 0.7708333333333334,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "diabetes_borderline",
+    "mean_top5_appearance_rate_across_methods": 0.5625,
+    "n_methods_included": 4
+  },
+  {
+    "rung_N": 100,
+    "feature": "diabetes_yes",
+    "mean_top5_appearance_rate_across_methods": 0.6875,
+    "n_methods_included": 4
+  }
+]

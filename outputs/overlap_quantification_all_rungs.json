@@ -1,0 +1,79 @@
+[
+  {
+    "rung_N": 5000,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.15649018181818183,
+    "empirical_median_overlap_fraction": 0.1564,
+    "empirical_min_overlap_fraction": 0.14,
+    "empirical_max_overlap_fraction": 0.1752,
+    "empirical_std_overlap_fraction": 0.00479922516549957,
+    "theoretical_expected_overlap_fraction": 0.15645534764378247
+  },
+  {
+    "rung_N": 2500,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.07833939393939393,
+    "empirical_median_overlap_fraction": 0.0784,
+    "empirical_min_overlap_fraction": 0.0576,
+    "empirical_max_overlap_fraction": 0.0996,
+    "empirical_std_overlap_fraction": 0.005217525598410063,
+    "theoretical_expected_overlap_fraction": 0.07822767382189123
+  },
+  {
+    "rung_N": 1000,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.03134787878787879,
+    "empirical_median_overlap_fraction": 0.031,
+    "empirical_min_overlap_fraction": 0.015,
+    "empirical_max_overlap_fraction": 0.052,
+    "empirical_std_overlap_fraction": 0.005363229705522271,
+    "theoretical_expected_overlap_fraction": 0.031291069528756495
+  },
+  {
+    "rung_N": 500,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.01577292929292929,
+    "empirical_median_overlap_fraction": 0.016,
+    "empirical_min_overlap_fraction": 0.0,
+    "empirical_max_overlap_fraction": 0.04,
+    "empirical_std_overlap_fraction": 0.005485716485440792,
+    "theoretical_expected_overlap_fraction": 0.015645534764378247
+  },
+  {
+    "rung_N": 250,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.007869898989898991,
+    "empirical_median_overlap_fraction": 0.008,
+    "empirical_min_overlap_fraction": 0.0,
+    "empirical_max_overlap_fraction": 0.04,
+    "empirical_std_overlap_fraction": 0.0055489049779612765,
+    "theoretical_expected_overlap_fraction": 0.007822767382189124
+  },
+  {
+    "rung_N": 100,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.0032161616161616156,
+    "empirical_median_overlap_fraction": 0.0,
+    "empirical_min_overlap_fraction": 0.0,
+    "empirical_max_overlap_fraction": 0.05,
+    "empirical_std_overlap_fraction": 0.00568888171487151,
+    "theoretical_expected_overlap_fraction": 0.0031291069528756495
+  },
+  {
+    "rung_N": 50,
+    "pool_size": 31958,
+    "n_pairs": 4950,
+    "empirical_mean_overlap_fraction": 0.0015070707070707072,
+    "empirical_median_overlap_fraction": 0.0,
+    "empirical_min_overlap_fraction": 0.0,
+    "empirical_max_overlap_fraction": 0.06,
+    "empirical_std_overlap_fraction": 0.0054893331369055935,
+    "theoretical_expected_overlap_fraction": 0.0015645534764378247
+  }
+]

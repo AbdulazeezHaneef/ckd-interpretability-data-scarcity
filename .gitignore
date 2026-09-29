@@ -1,0 +1,10 @@
+Correction_Tracker.md
+Master_Ledger.md
+outputs/rung_results_N*.json
+outputs/Cleaned_nhanes*.csv
+outputs/processed_predictors.csv
+outputs/firth_raw_results.json
+__pycache__/
+*.pyc
+.venv/
+manuscript_assets/tables/Tables.zip

@@ -1,0 +1,86 @@
+[
+  {
+    "rung_N": 5000,
+    "n_total": 100,
+    "n_model_valid": 100,
+    "n_model_invalid": 0,
+    "model_validity_failure_rate": 0.0,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.0,
+    "model_validity_failure_rate_ci_lower": 3.341099972357286e-18,
+    "model_validity_failure_rate_ci_upper": 0.03699349820698568
+  },
+  {
+    "rung_N": 2500,
+    "n_total": 100,
+    "n_model_valid": 100,
+    "n_model_invalid": 0,
+    "model_validity_failure_rate": 0.0,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.0,
+    "model_validity_failure_rate_ci_lower": 3.341099972357286e-18,
+    "model_validity_failure_rate_ci_upper": 0.03699349820698568
+  },
+  {
+    "rung_N": 1000,
+    "n_total": 100,
+    "n_model_valid": 98,
+    "n_model_invalid": 2,
+    "model_validity_failure_rate": 0.02,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.02,
+    "model_validity_failure_rate_ci_lower": 0.00550196755016235,
+    "model_validity_failure_rate_ci_upper": 0.0700117907285439
+  },
+  {
+    "rung_N": 500,
+    "n_total": 100,
+    "n_model_valid": 92,
+    "n_model_invalid": 8,
+    "model_validity_failure_rate": 0.08,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.08,
+    "model_validity_failure_rate_ci_lower": 0.04109346148438062,
+    "model_validity_failure_rate_ci_upper": 0.14998107700948732
+  },
+  {
+    "rung_N": 250,
+    "n_total": 100,
+    "n_model_valid": 71,
+    "n_model_invalid": 29,
+    "model_validity_failure_rate": 0.29,
+    "rule_1_rate": 0.0,
+    "rule_2_rate": 0.0,
+    "rule_3_rate": 0.29,
+    "model_validity_failure_rate_ci_lower": 0.21014835749122274,
+    "model_validity_failure_rate_ci_upper": 0.3853889117557111
+  },
+  {
+    "rung_N": 100,
+    "n_total": 100,
+    "n_model_valid": 24,
+    "n_model_invalid": 76,
+    "model_validity_failure_rate": 0.76,
+    "rule_1_rate": 0.2,
+    "rule_2_rate": 0.06,
+    "rule_3_rate": 0.5,
+    "model_validity_failure_rate_ci_lower": 0.6676766365018552,
+    "model_validity_failure_rate_ci_upper": 0.8330867444305122
+  },
+  {
+    "rung_N": 50,
+    "n_total": 100,
+    "n_model_valid": 0,
+    "n_model_invalid": 100,
+    "model_validity_failure_rate": 1.0,
+    "rule_1_rate": 0.95,
+    "rule_2_rate": 0.03,
+    "rule_3_rate": 0.02,
+    "model_validity_failure_rate_ci_lower": 0.9630065017930143,
+    "model_validity_failure_rate_ci_upper": 1.0
+  }
+]

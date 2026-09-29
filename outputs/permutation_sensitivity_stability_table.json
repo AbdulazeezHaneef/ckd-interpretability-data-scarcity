@@ -1,0 +1,93 @@
+[
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 100,
+    "jaccard_top3_mean": 0.7274747474747475,
+    "jaccard_top5_mean": 0.8216257816257817,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.8865367965367967,
+    "kendall_tau_mean": 0.7814141414141414,
+    "status": "OK",
+    "rung_N": 5000,
+    "n_split_invalid": 0,
+    "n_model_valid_draws": 100
+  },
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 100,
+    "jaccard_top3_mean": 0.7191313131313131,
+    "jaccard_top5_mean": 0.7612313612313614,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.8233477633477636,
+    "kendall_tau_mean": 0.7026839826839828,
+    "status": "OK",
+    "rung_N": 2500,
+    "n_split_invalid": 0,
+    "n_model_valid_draws": 100
+  },
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 98,
+    "jaccard_top3_mean": 0.5761203450452346,
+    "jaccard_top5_mean": 0.6493643112620601,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.5783339845511106,
+    "kendall_tau_mean": 0.46940779257210996,
+    "status": "OK",
+    "rung_N": 1000,
+    "n_split_invalid": 0,
+    "n_model_valid_draws": 98
+  },
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 92,
+    "jaccard_top3_mean": 0.5220258002866698,
+    "jaccard_top5_mean": 0.6216868018110255,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.4653351307078016,
+    "kendall_tau_mean": 0.3649352717675699,
+    "status": "OK",
+    "rung_N": 500,
+    "n_split_invalid": 0,
+    "n_model_valid_draws": 92
+  },
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 71,
+    "jaccard_top3_mean": 0.4392354124748491,
+    "jaccard_top5_mean": 0.604809811248443,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.32088243748203515,
+    "kendall_tau_mean": 0.24637347896905243,
+    "status": "OK",
+    "rung_N": 250,
+    "n_split_invalid": 0,
+    "n_model_valid_draws": 71
+  },
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 4,
+    "jaccard_top3_mean": 0.35000000000000003,
+    "jaccard_top5_mean": 0.8333333333333334,
+    "jaccard_top7_mean": 1.0,
+    "spearman_mean": 0.44642857142857156,
+    "kendall_tau_mean": 0.30158730158730157,
+    "status": "OK",
+    "rung_N": 100,
+    "n_split_invalid": 20,
+    "n_model_valid_draws": 24
+  },
+  {
+    "method": "permutation_heldout",
+    "n_valid_draws": 0,
+    "jaccard_top3_mean": null,
+    "jaccard_top5_mean": null,
+    "jaccard_top7_mean": null,
+    "spearman_mean": null,
+    "kendall_tau_mean": null,
+    "status": "INSUFFICIENT_VALID_DRAWS",
+    "rung_N": 50,
+    "n_split_invalid": 0,
+    "n_model_valid_draws": 0
+  }
+]

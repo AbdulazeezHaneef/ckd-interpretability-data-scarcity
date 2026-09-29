@@ -1,0 +1,198 @@
+[
+  {
+    "rung_N": 5000,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 5000,
+    "method": "permutation",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 5000,
+    "method": "shap",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 5000,
+    "method": "lime",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 2500,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 2500,
+    "method": "permutation",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 2500,
+    "method": "shap",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 2500,
+    "method": "lime",
+    "n_model_valid_draws": 100,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 1000,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 98,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 1000,
+    "method": "permutation",
+    "n_model_valid_draws": 98,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 1000,
+    "method": "shap",
+    "n_model_valid_draws": 98,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 1000,
+    "method": "lime",
+    "n_model_valid_draws": 98,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 500,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 92,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 500,
+    "method": "permutation",
+    "n_model_valid_draws": 92,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 500,
+    "method": "shap",
+    "n_model_valid_draws": 92,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 500,
+    "method": "lime",
+    "n_model_valid_draws": 92,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 250,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 71,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 250,
+    "method": "permutation",
+    "n_model_valid_draws": 71,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 250,
+    "method": "shap",
+    "n_model_valid_draws": 71,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 250,
+    "method": "lime",
+    "n_model_valid_draws": 71,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 100,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 24,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 100,
+    "method": "permutation",
+    "n_model_valid_draws": 24,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 100,
+    "method": "shap",
+    "n_model_valid_draws": 24,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 100,
+    "method": "lime",
+    "n_model_valid_draws": 24,
+    "n_computation_failed": 0,
+    "computation_failure_rate": 0.0
+  },
+  {
+    "rung_N": 50,
+    "method": "standardized_beta",
+    "n_model_valid_draws": 0,
+    "n_computation_failed": 0,
+    "computation_failure_rate": null
+  },
+  {
+    "rung_N": 50,
+    "method": "permutation",
+    "n_model_valid_draws": 0,
+    "n_computation_failed": 0,
+    "computation_failure_rate": null
+  },
+  {
+    "rung_N": 50,
+    "method": "shap",
+    "n_model_valid_draws": 0,
+    "n_computation_failed": 0,
+    "computation_failure_rate": null
+  },
+  {
+    "rung_N": 50,
+    "method": "lime",
+    "n_model_valid_draws": 0,
+    "n_computation_failed": 0,
+    "computation_failure_rate": null
+  }
+]

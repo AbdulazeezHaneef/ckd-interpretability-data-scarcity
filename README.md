@@ -1,0 +1,90 @@
+# CKD Risk Prediction and Interpretability Under Data Scarcity
+
+Code for the analysis in *"Chronic Kidney Disease Risk Prediction and
+Interpretability Under Data Scarcity: An NHANES-Based Analysis,"*
+submitted to the *Journal of Biomedical Informatics*.
+
+## What this does
+
+Uses NHANES 2007–2018 data to study how four feature-importance methods
+(standardized regression coefficients, permutation importance, SHAP,
+LIME) agree with each other as training sample size shrinks, for a
+logistic regression model predicting chronic kidney disease (CKD) from
+seven predictors (age, BMI, glucose, sex, hypertension, and two
+diabetes-status indicators).
+
+The design: repeatedly draw random subsamples at seven sample sizes
+(N = 50 to 5,000, 100 draws each), refit the model, compute each
+method's feature ranking, and measure how stable those rankings are
+across draws — then check whether that stability tracks or diverges
+from ordinary predictive performance (AUC).
+
+## Data
+
+NHANES 2007–2018, cycles combined. Source files are not included here
+(public-use NHANES data; download separately from the CDC NHANES
+website). Expected input: a combined raw CSV with the demographic,
+laboratory, and questionnaire variables listed in `preprocess.py`.
+
+## Pipeline order
+
+Run in this order from the project root; each step reads the previous
+step's output.
+
+1. `First_cleaning.py` — initial type/encoding cleanup of the raw
+   combined NHANES file
+2. `Computing_CKD.py` — computes eGFR (CKD-EPI 2021, race-free) and
+   ACR, derives the CKD outcome label
+3. `preprocess.py` — builds the final 7-predictor + outcome dataset,
+   drops the glucose sentinel value
+4. `run_all_rungs.py` — runs the main simulation (7 rungs × 100 draws),
+   saves `outputs/rung_results_N{N}.json`
+5. `compute_final_tables.py` — builds the model-validity and stability
+   summary tables
+6. `uncertainty_estimates.py` — adds Wilson/bootstrap confidence
+   intervals to those tables
+7. `formal_comparison.py` — paired bootstrap significance tests between
+   method pairs, FDR-corrected
+
+Sensitivity and supporting analyses (independent, run in any order once
+step 4 is done):
+
+- `check_collinearity.py`, `check_prevalence.py` — diagnostic checks
+- `epv_sensitivity.py` — re-filters step 4's results at alternative EPV
+  thresholds
+- `firth_comparator.py` — Firth-regression comparator for the
+  coefficient-magnitude validity rule
+- `lime_sensitivity.py`, `permutation_sensitivity.py` —
+  alternative-design reruns for those two methods
+- `quantify_overlap.py` — pairwise row-overlap between draws
+- `performance_metrics.py` — held-out AUC/Brier score, stratified
+  train/test split
+- `predictor_level_analysis.py` — per-feature (not just per-method)
+  stability breakdown
+
+Output generation:
+
+- `generate_baseline_table.py`, `generate_tables.py` — manuscript
+  tables (CSV/XLSX)
+- `figure_01_failure_rate.py` … `figure_09_jaccard_k_comparison.py`,
+  `figure_style.py` — manuscript and supplementary figures
+  (PDF/PNG/SVG)
+- `generate_graphical_abstract.py` — journal graphical abstract
+
+## Shared modules
+
+- `simulation_engine.py` — core per-draw fit-and-rank logic, used by
+  nearly everything above
+- `metrics.py` — Jaccard/Spearman/Kendall stability metrics
+- `data_splitting.py` — shared stratified train/test split logic
+
+## Requirements
+
+Python 3.14. Key packages: pandas 3.0.3, numpy 2.4.6, scikit-learn
+1.9.0, scipy 1.18.0, statsmodels, shap 0.52.0, lime 0.2.0.1,
+firthmodels, matplotlib.
+
+## Output
+
+Generated tables and intermediate results are written to `outputs/`;
+final manuscript-ready figures and tables to `manuscript_assets/`.
