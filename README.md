@@ -4,6 +4,8 @@ Code for the analysis in *"Chronic Kidney Disease Risk Prediction and
 Interpretability Under Data Scarcity: An NHANES-Based Analysis,"*
 submitted to the *Journal of Biomedical Informatics*.
 
+[![DOI](https://zenodo.org/badge/1396745115.svg)](https://doi.org/10.5281/zenodo.23071370)
+
 ## What this does
 
 Uses NHANES 2007–2018 data to study how four feature-importance methods
