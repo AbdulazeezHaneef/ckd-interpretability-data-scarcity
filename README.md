@@ -65,6 +65,15 @@ step 4 is done):
   train/test split
 - `predictor_level_analysis.py` — per-feature (not just per-method)
   stability breakdown
+- `firth_gated_sensitivity.py` — re-evaluates Rule 3 using Firth
+  regression instead of MLE, for every draw that passed Rules 1–2
+- `reference_ranking_analysis.py` — scores every draw's ranking against
+  a full-pool (N=31,958) reference ranking per method
+- `check_bmxwaist_collinearity.py` — recomputes the BMXBMI–BMXWAIST
+  correlation on the final locked analytic pool
+- `diabetes_collapse_sensitivity.py` — reruns the ladder with diabetes
+  collapsed to one binary predictor, isolating its effect on Rule 3
+  failures`
 
 Output generation:
 
