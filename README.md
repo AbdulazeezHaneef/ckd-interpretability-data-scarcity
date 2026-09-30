@@ -84,7 +84,7 @@ Output generation:
 
 ## Requirements
 
-Python 3.14. Key packages: pandas 3.0.3, numpy 2.4.6, scikit-learn
+Python 3.14. Key packages: pandas 3.0.5, numpy 2.4.6, scikit-learn
 1.9.0, scipy 1.18.0, statsmodels, shap 0.52.0, lime 0.2.0.1,
 firthmodels, matplotlib.
 
