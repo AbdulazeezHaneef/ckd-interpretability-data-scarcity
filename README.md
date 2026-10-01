@@ -86,6 +86,10 @@ Output generation:
   (PDF/PNG/SVG)
 - `generate_graphical_abstract.py` — journal graphical abstract
 
+  Note: `figure_08b_predictor_heatmap_per_method.py` replaces
+  `figure_08_predictor_heatmap.py`, producing Figure 4 as a 4-panel
+  per-method breakdown instead of a single averaged heatmap.
+
 ## Shared modules
 
 - `simulation_engine.py` — core per-draw fit-and-rank logic, used by
