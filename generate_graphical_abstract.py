@@ -47,13 +47,13 @@ FIG_WIDTH_IN = 13.28   # inches; at DPI=200 -> 2656 px wide
 FIG_HEIGHT_IN = 5.31   # inches; at DPI=200 -> 1062 px tall
 EXPORT_DPI = 200        # exceeds JBI's 150 DPI minimum with headroom
 
-TITLE_TEXT = ("Under Data Scarcity: Predictive Performance and\n"
-              "Interpretability Stability Decouple for CKD Risk Prediction")
+TITLE_TEXT = ("Under Data Scarcity, Predictor Rankings Destabilize\n"
+              "While Predictive Performance Holds")
 CAPTION_TEXT = (
-    "As sample size shrinks (N = 5,000 -> N = 250), model performance holds "
-    "while interpretability method rankings become substantially less "
-    "reproducible - adequate performance is not evidence of adequate "
-    "interpretability."
+    "As sample size shrinks (N = 5,000 -> N = 250), held-out discrimination "
+    "(AUC) holds while top-predictor ranking agreement with a full-pool "
+    "reference declines sharply - a draw's AUC does not predict whether its "
+    "ranking is close to that reference."
 )
 
 X_LABELS = ["N = 5,000", "N = 250"]

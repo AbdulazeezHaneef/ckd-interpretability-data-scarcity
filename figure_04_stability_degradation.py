@@ -35,7 +35,8 @@ def load_data() -> list[dict]:
 
 
 def plot_metric_panel(ax: plt.Axes, lookup: dict, metric_key: str,
-                       ci_lower_key: str, ci_upper_key: str, title: str) -> None:
+                       ci_lower_key: str, ci_upper_key: str, title: str,
+                       chance_value: float = None, chance_label: str = "") -> None:
     """
     Plot one metric's method lines with CI ribbons onto one axes.
 
@@ -60,11 +61,14 @@ def plot_metric_panel(ax: plt.Axes, lookup: dict, metric_key: str,
             means.append(row[metric_key])
             lowers.append(row[ci_lower_key])
             uppers.append(row[ci_upper_key])
-
         color = METHOD_COLORS[method]
         ax.plot(ns, means, marker="o", markersize=5, linewidth=1.5,
                 color=color, label=METHOD_LABELS[method])
         ax.fill_between(ns, lowers, uppers, color=color, alpha=0.15)
+
+    if chance_value is not None:
+        ax.axhline(chance_value, color="gray", linestyle="--", linewidth=1.2,
+                   label=chance_label, zorder=1)
 
     set_log_xaxis_with_n_labels(ax, RUNGS_WITH_VALID_DRAWS)
     ax.set_xlabel("Sample Size (N)")
@@ -92,16 +96,30 @@ def make_figure() -> plt.Figure:
     ax_jaccard.set_ylabel("Top-5 Jaccard Index")
     ax_jaccard.set_ylim(-0.02, 1.02)
 
+    plot_metric_panel(ax_jaccard, lookup, "jaccard_top5_mean",
+                       "jaccard_top5_ci_lower", "jaccard_top5_ci_upper",
+                       "Top-5 Jaccard Stability",
+                       chance_value=0.569, chance_label="Chance (random top-5)")
+    ax_jaccard.set_ylabel("Top-5 Jaccard Index")
+    ax_jaccard.set_ylim(-0.02, 1.02)
+
     plot_metric_panel(ax_spearman, lookup, "spearman_mean",
                        "spearman_ci_lower", "spearman_ci_upper",
-                       "Full-Ranking Spearman Stability")
+                       "Full-Ranking Spearman Stability",
+                       chance_value=0.0, chance_label="Chance (random ranking)")
     ax_spearman.set_ylabel("Spearman Correlation")
     ax_spearman.set_ylim(-0.05, 1.02)
 
-    handles, labels = ax_jaccard.get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", ncol=4, bbox_to_anchor=(0.5, -0.05))
+    handles_j, labels_j = ax_jaccard.get_legend_handles_labels()
+    handles_s, labels_s = ax_spearman.get_legend_handles_labels()
+    method_handles = handles_j[:len(METHODS)]
+    method_labels = labels_j[:len(METHODS)]
+    chance_handles = [handles_j[-1], handles_s[-1]]
+    chance_labels = [labels_j[-1], labels_s[-1]]
+    fig.legend(method_handles + chance_handles, method_labels + chance_labels,
+               loc="lower center", ncol=3, bbox_to_anchor=(0.5, -0.1))
 
-    fig.tight_layout(rect=[0, 0.03, 1, 1])
+    fig.tight_layout(rect=[0, 0.1, 1, 1])    
 
     return fig
 
